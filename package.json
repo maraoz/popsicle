@@ -17,7 +17,6 @@
     "./dist/lib/plugins/index.js": "./dist/lib/plugins/browser.js"
   },
   "scripts": {
-    "install": "npm run build-ts",
     "lint": "# TODO",
     "build-ts": "rm -rf dist/ && tsc",
     "build-browser": "browserify . -s popsicle --external bluebird > popsicle.js",
